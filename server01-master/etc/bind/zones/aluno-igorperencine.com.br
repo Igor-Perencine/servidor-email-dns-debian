@@ -1,0 +1,22 @@
+$TTL 14400
+@	IN	SOA	server01.aluno-igorperencine.com.br. root.aluno-igorperencine.com.br.(
+		2026031706 ; serial 
+		2400	   ; refresh (2 hours)
+		900	   ; retry (240 seconds)
+		1209600    ; expire (14 days)
+		43200	   ; minimum (12 hours)
+)
+
+@	IN	NS	server01.aluno-igorperencine.com.br.
+@	IN	NS	server02.aluno-igorperencine.com.br.
+
+@	IN	A	192.168.0.1
+@	IN	A	192.168.0.2
+
+$ORIGIN aluno-igorperencine.com.br.
+
+server01	IN	A	192.168.0.1
+server02	IN	A	192.168.0.2
+ok	IN	CNAME  aluno-igorperencine.com.br.
+prova0704	IN	CNAME	aluno-igorperencine.com.br.
+

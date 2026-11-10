@@ -1,0 +1,8 @@
+# Nunca versionar segredos
+*.key
+rndc.key
+SALT.php
+application.ini
+*.pem
+*_history
+historico/

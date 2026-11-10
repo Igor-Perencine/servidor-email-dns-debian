@@ -1,0 +1,7 @@
+zone "aluno-igorperencine.com.br"{
+	type slave;
+	file "/var/bind/aluno-igorperencine.com.br";
+	masters{192.168.0.1;};
+	Allow-transfer {192.168.0.1;};
+// 192.168.0.1 -> IP_DNS-MASTER
+};

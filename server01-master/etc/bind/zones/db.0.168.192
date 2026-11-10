@@ -1,0 +1,15 @@
+$ORIGIN .
+$TTL 43200	; 12 hours
+0.168.192.IN-ADDR.ARPA	IN	SOA	server01.aluno-igorperencine.com.br. root.aluno-igorperencine.com.br. (
+
+				2024022502 ; serial 27.FEV.24
+				3600	   ; refresh (1 hour)
+				900	   ; retry (15 seconds)
+				604800	   ; expire (2 weeks)
+				43200	   ; minmum (12 hours)
+				)
+
+				IN	NS	server01.aluno-igorperencine.com.br.
+$ORIGIN 0.168.192.IN-ADDR.ARPA
+1				PTR	server01.aluno-igorperencine.com.br.
+2				PTR	server02.aluno-igorperencine.com.br.

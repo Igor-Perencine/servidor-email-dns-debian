@@ -1,0 +1,11 @@
+zone "aluno-igorperencine.com.br" {
+	type master;
+	file "/etc/bind/zones/aluno-igorperencine.com.br";
+	allow-transfer {192.168.0.2;};
+};
+zone "0.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.0.168.192";
+	allow-transfer {192.168.0.2;};
+};
+
